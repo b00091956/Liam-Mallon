@@ -1,0 +1,255 @@
+@charset "utf-8";
+        
+body {
+	width:100%;
+	height:100%;
+	margin: 0;
+    padding:0;
+	
+}
+
+h1, h6 {
+	
+	padding:0;
+	margin:0;
+}
+#wholepage{
+	width:90%;
+	margin:0 auto;
+}
+.header{
+	
+	color:black;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+	text-decoration:none;
+	font-weight:100;
+}
+
+#menu{
+	display:inline-block;
+	width:100%;
+	padding: 0;
+	margin-left:400px;
+	
+	
+}
+
+#menu li{
+	display:table-cell;
+	width: 300px;
+	
+}
+
+#menu a{
+	color:black;
+	text-decoration:none;
+	font-family:"Courier New", Courier, monospace;
+}
+#menu a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+#banner{
+	width:100%;
+	
+}
+
+#banner img{
+	width:100%;
+}
+
+#about{
+	width:100%;
+	height:400px;
+	background-color:none;
+	font-family:"Courier New", Courier, monospace;
+	font-size:15px;
+	font-weight:100;
+	position:relative;
+}
+#me {
+ 	
+	position:relative;
+	top:100px;
+	text-align:right;
+	border-radius: 50%;
+	float:left;
+	
+	left:370px
+}
+#me2{
+	width:60%;
+	heigth:200px;
+	position:relative;
+	top:120px;
+	left:410px;
+	padding:10px;
+	
+}
+
+footer{
+	height: 100px;
+	width:100%;
+	font-size:10px;
+	color:white;
+	font-family:"Courier New", Courier, monospace;
+	text-align:right;
+	text-decoration:none;
+	background: rgb(216,224,222); 
+	background: -moz-linear-gradient(left,  rgba(216,224,222,1) 0%, rgba(174,191,188,1) 	22%, rgba(153,175,171,1) 33%, rgba(142,166,162,1) 50%, rgba(130,157,152,1) 67%, rgba(78,92,90,1) 82%, rgba(14,14,14,1) 100%); /
+	background: -webkit-linear-gradient(left,  rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%); 
+	background: linear-gradient(to right,  rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=1 );
+	bottom:0px;
+	clear:both;
+}
+#links{
+	float:right;
+	alignment-adjust:baseline;
+	margin-right:15px;
+	margin-top:80px;
+}
+#copy{
+	position:relative;
+	bottom:-60px;
+	right:10px;
+	color:white;
+	text-decoration:none;
+	
+	
+}
+
+#icon{
+	float: right;
+	position: absolute;
+	bottom: 32px;
+	left:800px;
+}
+
+#iconbar{
+	
+	float:left;
+	margin-left:20px;
+}
+
+.vids{
+	width:100%;
+	height:100%;
+	background-color:none;
+	font-family:"Courier New", Courier, monospace;
+	font-size:15px;
+	font-weight:100;
+	position:relative;
+}
+#utv{
+	Width:40%;
+	height:400px;
+	background-color:white;
+	float:left;
+	border-bottom:none;
+	padding:0;
+	margin-left:0px;
+	margin-top:50px;
+}
+#strange{
+	Width:40%;
+	height:400px;
+	float:right;
+	border-bottom:none;
+	margin-top:50px;
+	
+}
+#utvtext{
+	Width:40%;
+	height:350px;
+	background-color:none;
+	float:left;
+	font-family:"Courier New", Courier, monospace;
+	font-size:15px;
+	font-weight:100;
+	padding:5px;
+	
+}
+#strangetext{
+	Width:40%;
+	height:350px;
+	background-color:none;
+	font-family:"Courier New", Courier, monospace;
+	font-size:15px;
+	font-weight:100;
+	float:right;
+	clear::both;
+	
+	
+
+}
+.images{
+	width:1100px;
+	heigth: 2240px;
+	margin-left:390px;
+	margin-top:150px;
+	padding-bottom:100px;
+	
+	
+}
+
+#topleft{
+	width:300px;
+	height:250px;
+	margin: 10px;
+	display:inline-block;
+	left:50px;
+	object-fit:contain;
+	border:2px solid black;
+	
+}
+#topmiddle{
+	width:300px;
+	height:250px;
+	margin: 10px;
+	display:inline-block;
+	border:2px solid black;
+	
+}
+#topright{
+	width:300px;
+	height:250px;
+	margin: 10px;
+	display:inline-block;
+	border:2px solid black;
+}
+#bottomleft{
+	width:300px;
+	height:250px;
+	margin: 10px;
+	display:inline-block;
+	border:2px solid black;
+	
+	
+}
+#bottommiddle{
+	width:300px;
+	height:250px;
+	margin: 10px;
+	display:inline-block;
+	border:2px solid black;
+	
+}#bottomright{
+	width:300px;
+	height:250px;
+	margin: 10px;
+	display:inline-block;
+	border:2px solid black;
+	
+}
+.phototext{
+	width:660px;
+	height:auto;
+	margin-left:140px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:15px;
+	font-weight:100;
+	
+}
